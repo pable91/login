@@ -29,5 +29,7 @@ public class SessionInfoController {
         log.info("creationTime={}", new Date(session.getCreationTime()));
         log.info("lastAccessedTime={}", new Date(session.getLastAccessedTime()));
         log.info("isNew={}", session.isNew());
+
+        return "세션 출력";
     }
 }
